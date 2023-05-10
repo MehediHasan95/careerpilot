@@ -10,6 +10,12 @@ export default {
       colors: {
         customBlue: "#818DFE",
         customPurple: "#9676FF",
+        custombg: "#F9F9FF",
+      },
+      backgroundColor: {
+        customBlue: "#818DFE",
+        customPurple: "#9676FF",
+        custombg: "#F9F9FF",
       },
     },
   },

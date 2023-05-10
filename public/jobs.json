@@ -1,0 +1,214 @@
+[
+  {
+    "id": "hJ1lF6pK8qA3mR5sN0tV2xG9cB4zD7",
+    "company": "Google",
+    "location": "Mountain View, CA",
+    "image": "https://example.com/google.jpg",
+    "salary": "$180,000 - $300,000",
+    "description": "Google is a multinational technology company specializing in Internet-related services and products. They are known for their search engine, online advertising technologies, and popular mobile operating system, Android. At Google, we value innovation, diversity, inclusion, and collaboration. Our mission is to organize the world's information and make it universally accessible and useful.",
+    "remote": true,
+    "full_time": false,
+    "title": "Machine Learning Engineer",
+    "phone": "555-555-5678",
+    "email": "jobs@google.com",
+    "location_address": "123 Main Street, Mountain View, CA",
+    "requirements": {
+      "education": "Master's degree or Ph.D. in Computer Science or related field",
+      "experience": "5+ years of relevant industry experience",
+      "skills": [
+        "Strong programming skills in one or more of the following languages: Java, Python, Go",
+        "Experience with distributed systems and large-scale data processing",
+        "Strong problem-solving and communication skills",
+        "Experience with machine learning and artificial intelligence"
+      ],
+      "certifications": [
+        "Google Cloud Certified - Professional Cloud Architect",
+        "Google Cloud Certified - Professional Data Engineer",
+        "Google Cloud Certified - Professional Cloud Developer"
+      ]
+    }
+  },
+  {
+    "id": "dT8rW5fJ0vY2mK1bN6zL9gX3sH7pQ4",
+    "company": "Microsoft",
+    "location": "Redmond, WA",
+    "image": "https://example.com/microsoft.jpg",
+    "salary": "$120,000 - $200,000",
+    "description": "Microsoft Corporation is an American multinational technology company that develops, licenses, and sells computer software, consumer electronics, and personal computers. They are known for their Windows operating system, Microsoft Office Suite, and Xbox gaming console. At Microsoft, we value diversity, inclusion, collaboration, and innovation. Our mission is to empower every person and every organization on the planet to achieve more.",
+    "remote": true,
+    "full_time": true,
+    "title": "Senior Software Engineer",
+    "phone": "555-555-1234",
+    "email": "jobs@microsoft.com",
+    "location_address": "123 Main Street, Redmond, WA",
+    "requirements": {
+      "education": "Bachelor's degree in Computer Science or related field",
+      "experience": "5+ years of relevant industry experience",
+      "skills": [
+        "Strong programming skills in one or more of the following languages: C#, Java, C++",
+        "Experience with cloud computing and web technologies",
+        "Strong problem-solving and communication skills",
+        "Experience with software design and architecture"
+      ],
+      "certifications": [
+        "Microsoft Certified: Azure Solutions Architect Expert",
+        "Microsoft Certified: Azure Developer Associate",
+        "Microsoft Certified: Azure Administrator Associate"
+      ]
+    }
+  },
+  {
+    "id": "nG7sF4tK1pL0qA5cJ8hR9mD2vZ6xT3",
+    "company": "Facebook",
+    "location": "Menlo Park, CA",
+    "image": "https://example.com/facebook.jpg",
+    "salary": "$150,000 - $250,000",
+    "description": "Facebook is a social media and technology company that provides a platform for people to connect, share, and communicate with each other. They are also involved in virtual reality, artificial intelligence, and other cutting-edge technologies. At Facebook, we value openness, transparency, integrity, and impact. Our mission is to give people the power to build community and bring the world closer together.",
+    "remote": true,
+    "full_time": false,
+    "title": "Product Manager",
+    "phone": "555-555-5678",
+    "email": "jobs@facebook.com",
+    "location_address": "123 Main Street, Menlo Park, CA",
+    "requirements": {
+      "education": "Bachelor's or Master's degree in Business Administration, Computer Science or related field",
+      "experience": "5+ years of relevant industry experience",
+      "skills": [
+        "Strong product management skills and experience",
+        "Experience with social media platforms and advertising",
+        "Strong problem-solving and communication skills",
+        "Experience with data analysis and metrics-driven decision-making"
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "id": "yU2wI1jK7tR4sH0fP8zL9vX3qA6gM5",
+    "company": "Amazon",
+    "location": "Seattle, WA",
+    "image": "https://example.com/amazon.jpg",
+    "salary": "$150,000 - $250,000",
+    "description": "Amazon is one of the world's largest online retailers, offering a wide range of products and services to customers worldwide. They are also involved in cloud computing, artificial intelligence, and other cutting-edge technologies. At Amazon, we value customer obsession, ownership, long-term thinking, and invent and simplify. Our mission is to be the Earth's most customer-centric company.",
+    "remote": true,
+    "full_time": true,
+    "title": "Senior Software Development Manager",
+    "phone": "555-555-1234",
+    "email": "jobs@amazon.com",
+    "location_address": "123 Main Street, Seattle, WA",
+    "requirements": {
+      "education": "Bachelor's degree in Computer Science or related field",
+      "experience": "10+ years of relevant industry experience",
+      "skills": [
+        "Strong programming skills in one or more of the following languages: Java, C++, Python",
+        "Experience with distributed systems and high-performance computing",
+        "Strong problem-solving and communication skills",
+        "Experience leading and mentoring teams"
+      ],
+      "certifications": [
+        "AWS Certified Solutions Architect - Associate",
+        "AWS Certified Developer - Associate",
+        "AWS Certified DevOps Engineer - Professional"
+      ]
+    }
+  },
+  {
+    "id": "bT2mR1vK7lS4sP0qJ8nH9xG3zF6cD5",
+    "company": "Apple",
+    "location": "Cupertino, CA",
+    "image": "https://example.com/apple.jpg",
+    "salary": "$150,000 - $300,000",
+    "description": "Apple Inc. is an American multinational technology company that designs, develops, and sells consumer electronics, computer software, and online services. They are known for their iPhone, iPad, Mac, Apple Watch, and Apple TV products. At Apple, we value innovation, quality, design, and simplicity. Our mission is to bring the best user experience to customers through our products.",
+    "remote": false,
+    "full_time": true,
+    "title": "Senior Software Engineer - iOS",
+    "phone": "555-555-5678",
+    "email": "jobs@apple.com",
+    "location_address": "123 Main Street, Cupertino, CA",
+    "requirements": {
+      "education": "Bachelor's or Master's degree in Computer Science or related field",
+      "experience": "5+ years of relevant industry experience",
+      "skills": [
+        "Strong programming skills in Objective-C or Swift",
+        "Experience with iOS app development and related technologies",
+        "Strong problem-solving and communication skills",
+        "Experience with software design and architecture"
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "id": "fJ0gM4tP5sN3dH8vK6zX9bQ2rL1cY7",
+    "company": "Netflix",
+    "location": "Los Gatos, CA",
+    "image": "https://example.com/netflix.jpg",
+    "salary": "$150,000 - $300,000",
+    "description": "Netflix, Inc. is an American streaming entertainment service provider that offers TV shows, movies, and documentaries on internet-connected devices. They are known for their popular shows such as Stranger Things, The Crown, and Narcos. At Netflix, we value innovation, freedom, and responsibility. Our mission is to entertain the world and create joy through stories.",
+    "remote": true,
+    "full_time": true,
+    "title": "Senior Software Engineer - Backend",
+    "phone": "555-555-9012",
+    "email": "jobs@netflix.com",
+    "location_address": "123 Main Street, Los Gatos, CA",
+    "requirements": {
+      "education": "Bachelor's or Master's degree in Computer Science or related field",
+      "experience": "5+ years of relevant industry experience",
+      "skills": [
+        "Strong programming skills in one or more of the following languages: Java, Python, or Go",
+        "Experience with distributed systems and related technologies",
+        "Strong problem-solving and communication skills",
+        "Experience with software design and architecture"
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "id": "pL2hF5nK6jR1cT8qS0tZ9xV7bG4mD3",
+    "company": "Tesla",
+    "location": "Palo Alto, CA",
+    "image": "https://example.com/tesla.jpg",
+    "salary": "$120,000 - $250,000",
+    "description": "Tesla is an American electric vehicle and clean energy company that designs and manufactures electric cars, battery storage systems, and solar panels. At Tesla, we believe in accelerating the world's transition to sustainable energy. We are looking for talented individuals who are passionate about making a positive impact on the world.",
+    "remote": false,
+    "full_time": true,
+    "title": "Senior Mechanical Engineer",
+    "phone": "555-555-6789",
+    "email": "jobs@tesla.com",
+    "location_address": "3500 Deer Creek Road, Palo Alto, CA",
+    "requirements": {
+      "education": "Bachelor's or Master's degree in Mechanical Engineering or related field",
+      "experience": "7+ years of relevant industry experience",
+      "skills": [
+        "Experience with mechanical design and analysis tools such as SolidWorks or ANSYS",
+        "Experience with manufacturing processes such as casting, machining, and welding",
+        "Strong problem-solving and communication skills",
+        "Experience with designing components for high volume production"
+      ],
+      "certifications": ["Professional Engineer (PE) certification is a plus"]
+    }
+  },
+  {
+    "id": "wG3vH1jL0qR6tK2fM9zX7sP5bN4cA8",
+    "company": "Alphabet",
+    "location": "Mountain View, CA",
+    "image": "https://example.com/alphabet.jpg",
+    "salary": "$130,000 - $300,000",
+    "description": "Alphabet is an American multinational conglomerate that is the parent company of Google, YouTube, and several other subsidiaries. Our mission is to organize the world's information and make it universally accessible and useful. At Alphabet, we value diversity, collaboration, and innovation.",
+    "remote": true,
+    "full_time": true,
+    "title": "Software Engineer - Machine Learning",
+    "phone": "555-555-1234",
+    "email": "jobs@alphabet.com",
+    "location_address": "1600 Amphitheatre Parkway, Mountain View, CA",
+    "requirements": {
+      "education": "Bachelor's or Master's degree in Computer Science or related field",
+      "experience": "3+ years of relevant industry experience",
+      "skills": [
+        "Strong programming skills in Python and/or C++",
+        "Experience with machine learning frameworks such as TensorFlow or PyTorch",
+        "Strong problem-solving and communication skills",
+        "Experience with software design and architecture"
+      ],
+      "certifications": []
+    }
+  }
+]

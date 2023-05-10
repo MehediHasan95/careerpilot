@@ -4,6 +4,7 @@ import ErrorPage from "../components/ErrorPage";
 import Statistics from "../components/Statistics";
 import ApplyJob from "../components/ApplyJob";
 import Blog from "../components/Blog";
+import Home from "../components/Home";
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
       {
         path: "statistics",
         element: <Statistics />,
