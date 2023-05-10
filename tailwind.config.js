@@ -8,11 +8,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        raisingBlack: "#202020",
         customBlue: "#818DFE",
         customPurple: "#9676FF",
         custombg: "#F9F9FF",
       },
       backgroundColor: {
+        raisingBlack: "#202020",
         customBlue: "#818DFE",
         customPurple: "#9676FF",
         custombg: "#F9F9FF",

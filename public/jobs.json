@@ -211,5 +211,55 @@
       ],
       "certifications": []
     }
+  },
+  {
+    "id": "bT6zX9vK3lR0sP7jH1mF8gQ2nN5cD4",
+    "company": "Alphabet",
+    "location": "Mountain View, CA",
+    "image": "/src/assets/Icons/alphabet.png",
+    "salary": "$150,000 - $300,000",
+    "description": "Alphabet is a multinational conglomerate that owns several technology companies including Google, YouTube, and Waymo. Our mission is to make the world's information universally accessible and useful. We are looking for talented individuals who are passionate about innovation and making a positive impact on the world.",
+    "remote": false,
+    "full_time": true,
+    "title": "Machine Learning Engineer",
+    "phone": "555-555-1234",
+    "email": "jobs@alphabet.com",
+    "location_address": "1600 Amphitheatre Pkwy, Mountain View, CA",
+    "requirements": {
+      "education": "Bachelor's or Master's degree in Computer Science or related field",
+      "experience": "5+ years of relevant industry experience",
+      "skills": [
+        "Strong programming skills in languages such as Python or Java",
+        "Experience with machine learning frameworks such as TensorFlow or PyTorch",
+        "Experience with data analysis and visualization tools such as Pandas or Matplotlib",
+        "Strong problem-solving and communication skills"
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "id": "zJ3tR7nF5sL2cK1vG0mD6pQ9xH4b8",
+    "company": "Oracle",
+    "location": "Redwood City, CA",
+    "image": "/src/assets/Icons/oracal.png",
+    "salary": "$120,000 - $250,000",
+    "description": "Oracle is an American multinational computer technology corporation that provides database software, cloud services, and enterprise software products. Our mission is to help people see data in new ways, discover insights, and unlock endless possibilities. We are looking for talented individuals who are passionate about transforming the way people use technology.",
+    "remote": false,
+    "full_time": true,
+    "title": "Senior Software Engineer",
+    "phone": "555-555-4321",
+    "email": "jobs@oracle.com",
+    "location_address": "500 Oracle Pkwy, Redwood City, CA",
+    "requirements": {
+      "education": "Bachelor's or Master's degree in Computer Science or related field",
+      "experience": "7+ years of relevant industry experience",
+      "skills": [
+        "Experience with programming languages such as Java, Python, or C++",
+        "Experience with database technologies such as SQL or NoSQL",
+        "Strong problem-solving and communication skills",
+        "Experience with designing and implementing scalable software systems"
+      ],
+      "certifications": []
+    }
   }
 ]

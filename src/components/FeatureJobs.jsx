@@ -16,7 +16,7 @@ const FeatureJobs = () => {
   };
 
   return (
-    <section className="px-2 lg:px-32 mt-24 border">
+    <section className="px-2 lg:px-32 mt-24">
       <div className="text-center m-5">
         <h1 className="text-3xl font-bold mb-2">Featured Jobs</h1>
         <p>
