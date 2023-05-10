@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
+import Job from "./Job";
 
 const FeatureJobs = () => {
   const [jobs, setJobs] = useState([]);
-
-  console.log(jobs);
 
   useEffect(() => {
     fetch("jobs.json")
@@ -21,11 +20,11 @@ const FeatureJobs = () => {
         </p>
       </div>
       <div>
-        {jobs.map((job) => (
-          <div key={job.id}>
-            <h1>{job.company}</h1>
-          </div>
-        ))}
+        <div className="grid gap-5 lg:grid-cols-2">
+          {jobs.map((job) => (
+            <Job key={job.id} job={job} />
+          ))}
+        </div>
       </div>
     </section>
   );
