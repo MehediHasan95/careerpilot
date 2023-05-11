@@ -1,9 +1,14 @@
-import icon1 from "../assets/Icons/accounts 1.png";
-import icon2 from "../assets/Icons/business 1.png";
-import icon3 from "../assets/Icons/social-media 1.png";
-import icon4 from "../assets/Icons/chip 1.png";
+import { useEffect, useState } from "react";
 
 const JobCategory = () => {
+  const [category, setCategory] = useState([]);
+
+  useEffect(() => {
+    fetch("category.json")
+      .then((res) => res.json())
+      .then((data) => setCategory(data));
+  }, []);
+
   return (
     <section className="px-2 lg:px-32 mt-24">
       <div className="text-center m-5">
@@ -13,27 +18,14 @@ const JobCategory = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid gap-5 lg:grid-cols-4">
-        <div className="col-span-1 bg-custombg p-5 rounded-md">
-          <img src={icon1} alt="" className="my-4" />
-          <h1 className="text-xl font-bold my-1">Account & Finance</h1>
-          <p>300 Jobs Available</p>
-        </div>
-        <div className="col-span-1 bg-custombg p-5 rounded-md">
-          <img src={icon2} alt="" className="my-4" />
-          <h1 className="text-xl font-bold my-1">Creative Design</h1>
-          <p>100+ Jobs Available</p>
-        </div>
-        <div className="col-span-1 bg-custombg p-5 rounded-md">
-          <img src={icon3} alt="" className="my-4" />
-          <h1 className="text-xl font-bold my-1">Marketing & Sales</h1>
-          <p>150 Jobs Available</p>
-        </div>
-        <div className="col-span-1 bg-custombg p-5 rounded-md">
-          <img src={icon4} alt="" className="my-4" />
-          <h1 className="text-xl font-bold my-1">Engineering Job</h1>
-          <p>224 Jobs Available</p>
-        </div>
+      <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+        {category.map((e) => (
+          <div key={e.id} className="col-span-1 bg-custombg p-5 rounded-md">
+            <img src={e.img} alt="" className="my-4" />
+            <h1 className="text-xl font-bold my-1">{e.title}</h1>
+            <p>{e.description}</p>
+          </div>
+        ))}
       </div>
     </section>
   );

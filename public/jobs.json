@@ -26,7 +26,14 @@
         "Google Cloud Certified - Professional Data Engineer",
         "Google Cloud Certified - Professional Cloud Developer"
       ]
-    }
+    },
+    "responsibilities": [
+      "Design, develop, and maintain scalable and reliable software systems that serve millions of users",
+      "Collaborate with cross-functional teams to define, design, and ship new features",
+      "Write clean, maintainable, and well-documented code that adheres to established coding standards",
+      "Perform code reviews and provide constructive feedback to peers",
+      "Continuously improve software development processes and practices to increase efficiency and quality"
+    ]
   },
   {
     "id": "dT8rW5fJ0vY2mK1bN6zL9gX3sH7pQ4",
@@ -55,7 +62,14 @@
         "Microsoft Certified: Azure Developer Associate",
         "Microsoft Certified: Azure Administrator Associate"
       ]
-    }
+    },
+    "responsibilities": [
+      "Design and implement cloud solutions that meet customer requirements for scalability, reliability, and security",
+      "Provide technical leadership and guidance to cross-functional teams during solution design, development, and deployment",
+      "Create and maintain technical documentation, including architecture diagrams, solution designs, and operational procedures",
+      "Collaborate with sales and marketing teams to identify customer requirements and develop solutions that meet their needs",
+      "Stay up-to-date with the latest advancements in cloud technology and best practices"
+    ]
   },
   {
     "id": "nG7sF4tK1pL0qA5cJ8hR9mD2vZ6xT3",
@@ -80,7 +94,15 @@
         "Experience with data analysis and metrics-driven decision-making"
       ],
       "certifications": []
-    }
+    },
+    "responsibilities": [
+      "Define product vision and strategy, and work with cross-functional teams to execute on product plans",
+      "Identify market opportunities and develop product roadmap to capitalize on those opportunities",
+      "Gather and analyze customer feedback to continuously improve product offerings",
+      "Collaborate with engineering, design, and other teams to deliver high-quality products on time and within budget",
+      "Develop and maintain strong relationships with external partners and stakeholders",
+      "Monitor and analyze product metrics to track product performance and identify areas for improvement"
+    ]
   },
   {
     "id": "yU2wI1jK7tR4sH0fP8zL9vX3qA6gM5",
@@ -109,7 +131,16 @@
         "AWS Certified Developer - Associate",
         "AWS Certified DevOps Engineer - Professional"
       ]
-    }
+    },
+    "responsibilities": [
+      "Design, develop, and maintain software solutions that meet business requirements",
+      "Write high-quality, maintainable, and efficient code",
+      "Contribute to all phases of the software development life cycle, including analysis, design, development, testing, and deployment",
+      "Collaborate with cross-functional teams to identify and prioritize features",
+      "Participate in code reviews to maintain code quality standards",
+      "Provide technical leadership to other team members",
+      "Stay current with emerging technologies and best practices in software development"
+    ]
   },
   {
     "id": "bT2mR1vK7lS4sP0qJ8nH9xG3zF6cD5",
@@ -134,7 +165,18 @@
         "Experience with software design and architecture"
       ],
       "certifications": []
-    }
+    },
+    "responsibilities": [
+      "Design, develop, and maintain software solutions for Apple's products and services",
+      "Write high-quality, maintainable, and efficient code",
+      "Collaborate with cross-functional teams to identify and prioritize features",
+      "Participate in code reviews to maintain code quality standards",
+      "Provide technical leadership to other team members",
+      "Stay current with emerging technologies and best practices in software development",
+      "Ensure the performance, quality, and responsiveness of applications",
+      "Develop and maintain automated test suites to ensure product quality",
+      "Contribute to the continuous improvement of the software development process"
+    ]
   },
   {
     "id": "fJ0gM4tP5sN3dH8vK6zX9bQ2rL1cY7",
@@ -159,7 +201,18 @@
         "Experience with software design and architecture"
       ],
       "certifications": []
-    }
+    },
+    "responsibilities": [
+      "Design, develop, and maintain highly scalable and fault-tolerant distributed systems",
+      "Write high-quality, maintainable, and efficient code",
+      "Collaborate with cross-functional teams to identify and prioritize features",
+      "Provide technical leadership to other team members",
+      "Stay current with emerging technologies and best practices in software development",
+      "Ensure the performance, quality, and reliability of applications",
+      "Develop and maintain automated test suites to ensure product quality",
+      "Participate in code reviews to maintain code quality standards",
+      "Contribute to the continuous improvement of the software development process"
+    ]
   },
   {
     "id": "pL2hF5nK6jR1cT8qS0tZ9xV7bG4mD3",
@@ -184,7 +237,18 @@
         "Experience with designing components for high volume production"
       ],
       "certifications": ["Professional Engineer (PE) certification is a plus"]
-    }
+    },
+    "responsibilities": [
+      "Design, develop, and maintain software applications and services for Tesla's products",
+      "Write high-quality, efficient, and maintainable code",
+      "Collaborate with cross-functional teams to identify and prioritize features",
+      "Provide technical leadership to other team members",
+      "Stay current with emerging technologies and best practices in software development",
+      "Ensure the performance, quality, and reliability of applications",
+      "Develop and maintain automated test suites to ensure product quality",
+      "Participate in code reviews to maintain code quality standards",
+      "Contribute to the continuous improvement of the software development process"
+    ]
   },
 
   {
@@ -210,7 +274,20 @@
         "Experience with hardware debugging and characterization"
       ],
       "certifications": []
-    }
+    },
+    "responsibilities": [
+      "Design, develop, and maintain software for Intel's products and services",
+      "Collaborate with cross-functional teams to identify and prioritize features",
+      "Write high-quality, efficient, and maintainable code",
+      "Ensure the performance, quality, and reliability of software applications",
+      "Contribute to the continuous improvement of the software development process",
+      "Participate in code reviews to maintain code quality standards",
+      "Stay current with emerging technologies and best practices in software development",
+      "Develop and maintain automated test suites to ensure product quality",
+      "Provide technical leadership to other team members",
+      "Communicate effectively with stakeholders to understand their needs and requirements",
+      "Contribute to the documentation of software design, requirements, and testing"
+    ]
   },
   {
     "id": "bT6zX9vK3lR0sP7jH1mF8gQ2nN5cD4",
@@ -235,7 +312,20 @@
         "Strong problem-solving and communication skills"
       ],
       "certifications": []
-    }
+    },
+    "responsibilities": [
+      "Design, develop, and maintain software for Intel's products and services",
+      "Collaborate with cross-functional teams to identify and prioritize features",
+      "Write high-quality, efficient, and maintainable code",
+      "Ensure the performance, quality, and reliability of software applications",
+      "Contribute to the continuous improvement of the software development process",
+      "Participate in code reviews to maintain code quality standards",
+      "Stay current with emerging technologies and best practices in software development",
+      "Develop and maintain automated test suites to ensure product quality",
+      "Provide technical leadership to other team members",
+      "Communicate effectively with stakeholders to understand their needs and requirements",
+      "Contribute to the documentation of software design, requirements, and testing"
+    ]
   },
   {
     "id": "zJ3tR7nF5sL2cK1vG0mD6pQ9xH4b8",
@@ -260,6 +350,19 @@
         "Experience with designing and implementing scalable software systems"
       ],
       "certifications": []
-    }
+    },
+    "responsibilities": [
+      "Design, develop, and maintain software for Oracle's products and services",
+      "Collaborate with cross-functional teams to identify and prioritize features",
+      "Write high-quality, efficient, and maintainable code",
+      "Ensure the performance, quality, and reliability of software applications",
+      "Contribute to the continuous improvement of the software development process",
+      "Participate in code reviews to maintain code quality standards",
+      "Stay current with emerging technologies and best practices in software development",
+      "Develop and maintain automated test suites to ensure product quality",
+      "Provide technical leadership to other team members",
+      "Communicate effectively with stakeholders to understand their needs and requirements",
+      "Contribute to the documentation of software design, requirements, and testing"
+    ]
   }
 ]

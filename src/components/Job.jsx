@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import { faLocationDot, faSackDollar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
-/* eslint-disable react/prop-types */
 const Job = ({ job }) => {
-  //   console.log(job);
-  const { company, title, image, location, salary, remote, full_time } = job;
+  const { id, company, title, image, location, salary, remote, full_time } =
+    job;
   return (
     <div className="border rounded-md p-5">
       <img src={image} alt={company} className="w-16 mb-5" />
@@ -28,9 +29,11 @@ const Job = ({ job }) => {
           <FontAwesomeIcon icon={faSackDollar} /> {salary}
         </span>
       </p>
-      <button className="bg-gradient-to-r from-customBlue to-customPurple text-white py-2 px-4 rounded-md">
-        View Details
-      </button>
+      <Link to={`jobdetail/${id}`}>
+        <button className="bg-gradient-to-r from-customBlue to-customPurple text-white py-2 px-4 rounded-md">
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };

@@ -1,19 +1,10 @@
-import { useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import Job from "./Job";
+import { MyContext } from "../provider/ContextProvider";
 
 const FeatureJobs = () => {
-  const [jobs, setJobs] = useState([]);
+  const { jobs } = useContext(MyContext);
   const [limit, setLimit] = useState(4);
-
-  useEffect(() => {
-    fetch("jobs.json")
-      .then((res) => res.json())
-      .then((data) => setJobs(data));
-  }, [limit]);
-
-  const handleSeeMore = () => {
-    setLimit(jobs.length);
-  };
 
   return (
     <section className="px-2 lg:px-32 mt-24">
@@ -34,7 +25,7 @@ const FeatureJobs = () => {
         {jobs.slice(0, limit).length === 4 && (
           <div className="my-8 flex justify-center">
             <button
-              onClick={handleSeeMore}
+              onClick={() => setLimit(jobs.length)}
               className="bg-gradient-to-r from-customBlue to-customPurple text-white py-2 px-4 rounded-md"
             >
               See All Jobs
