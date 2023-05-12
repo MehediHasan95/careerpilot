@@ -20,8 +20,10 @@ const JobCategory = () => {
       </div>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
         {category.map((e) => (
-          <div key={e.id} className="col-span-1 bg-custombg p-5 rounded-md">
-            <img src={e.img} alt="" className="my-4" />
+          <div key={e.id} className="col-span-1 bg-white p-5 rounded-md">
+            <div className="w-16 h-12 my-3">
+              <img src={e.img} alt="" className="w-full object-cover" />
+            </div>
             <h1 className="text-xl font-bold my-1">{e.title}</h1>
             <p>{e.description}</p>
           </div>

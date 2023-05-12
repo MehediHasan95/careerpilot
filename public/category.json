@@ -3,24 +3,24 @@
     "id": 1,
     "title": "Account & Finance",
     "description": "300 Jobs Available",
-    "img": "../src/assets/accounts.png"
+    "img": "https://png.pngtree.com/png-vector/20190803/ourmid/pngtree-calculator-calculation-math-progress-graph-flat-color-icon-v-png-image_1648951.jpg"
   },
   {
     "id": 2,
     "title": "Creative Design",
     "description": "100+ Jobs Available",
-    "img": "../src/assets/business.png"
+    "img": "https://png.pngtree.com/png-vector/20191116/ourmid/pngtree-idea-icon-in-outline-style-png-image_1992280.jpg"
   },
   {
     "id": 3,
     "title": "Marketing & Sales",
     "description": "150 Jobs Available",
-    "img": "../src/assets/social-media.png"
+    "img": "https://png.pngtree.com/element_our/png/20181214/success-coach-logo-elegant-concept-of-success-marketing-logo-png_268618.jpg"
   },
   {
     "id": 4,
     "title": "Engineering Job",
     "description": "224 Jobs Available",
-    "img": "../src/assets/chip.png"
+    "img": "https://png.pngtree.com/png-vector/20190214/ourmid/pngtree-engineering-icon-png-image_428266.jpg"
   }
 ]
