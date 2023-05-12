@@ -1,4 +1,4 @@
-import social from "../assets/Icons/group-social.png";
+import social from "../assets/group-social.png";
 
 const Footer = () => {
   return (

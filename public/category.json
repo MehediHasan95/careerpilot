@@ -3,24 +3,24 @@
     "id": 1,
     "title": "Account & Finance",
     "description": "300 Jobs Available",
-    "img": "../src/assets/Icons/accounts.png"
+    "img": "../src/assets/accounts.png"
   },
   {
     "id": 2,
     "title": "Creative Design",
     "description": "100+ Jobs Available",
-    "img": "../src/assets/Icons/business.png"
+    "img": "../src/assets/business.png"
   },
   {
     "id": 3,
     "title": "Marketing & Sales",
     "description": "150 Jobs Available",
-    "img": "../src/assets/Icons/social-media.png"
+    "img": "../src/assets/social-media.png"
   },
   {
     "id": 4,
     "title": "Engineering Job",
     "description": "224 Jobs Available",
-    "img": "../src/assets/Icons/chip.png"
+    "img": "../src/assets/chip.png"
   }
 ]

@@ -1,4 +1,4 @@
-import person from "../assets/all-images/banner.png";
+import person from "../assets/banner.png";
 
 const Header = () => {
   return (
