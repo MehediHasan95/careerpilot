@@ -10,6 +10,7 @@ import {
   faPhone,
   faSackDollar,
 } from "@fortawesome/free-solid-svg-icons";
+import { addToDb } from "../utilities/fakedb";
 
 const JobDetail = () => {
   const { id } = useParams();
@@ -19,6 +20,10 @@ const JobDetail = () => {
   useEffect(() => {
     setDetail(jobs.find((e) => e.id === id));
   }, [id, jobs]);
+
+  const handleApplyingJobs = (id) => {
+    addToDb(id);
+  };
 
   return (
     <div className="px-2 lg:px-32">
@@ -109,7 +114,10 @@ const JobDetail = () => {
               </p>
             </div>
           </div>
-          <button className="bg-gradient-to-r from-customBlue to-customPurple text-white py-2 px-4 rounded-md w-full mt-3">
+          <button
+            onClick={() => handleApplyingJobs(detail.id)}
+            className="bg-gradient-to-r from-customBlue to-customPurple text-white py-2 px-4 rounded-md w-full mt-3"
+          >
             Apply Now
           </button>
         </div>

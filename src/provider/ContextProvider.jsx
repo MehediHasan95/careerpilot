@@ -1,15 +1,11 @@
 /* eslint-disable react/prop-types */
-import { createContext, useEffect, useState } from "react";
+import { createContext } from "react";
+import useJobs from "../hooks/useJobs";
 
 export const MyContext = createContext();
 
 const ContextProvider = ({ children }) => {
-  const [jobs, setJobs] = useState([]);
-  useEffect(() => {
-    fetch("jobs.json")
-      .then((res) => res.json())
-      .then((data) => setJobs(data));
-  }, []);
+  const [jobs] = useJobs();
 
   const data = { jobs };
   return <MyContext.Provider value={data}>{children}</MyContext.Provider>;
