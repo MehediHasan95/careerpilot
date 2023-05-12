@@ -81,7 +81,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" className="text-2xl font-bold">
+        <Link to="/" className="text-3xl font-lobster">
           CareerPilot
         </Link>
       </div>

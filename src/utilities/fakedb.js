@@ -1,3 +1,5 @@
+import { toast } from "react-hot-toast";
+
 // use local storage to manage cart data
 const addToDb = (id) => {
   let applyingJobs = getApplyingJobs();
@@ -6,10 +8,9 @@ const addToDb = (id) => {
 
   if (!isApply) {
     applyingJobs[id] = true;
+    toast.success("The application was successful");
   } else {
-    alert("Addready added");
-    // const newQuantity = quantity + 1;
-    // applyingJobs[id] = newQuantity;
+    toast.error("You have already applied to this job");
   }
   localStorage.setItem("applying-jobs", JSON.stringify(applyingJobs));
 };

@@ -1,13 +1,20 @@
 /* eslint-disable react/prop-types */
-import { createContext } from "react";
-import useJobs from "../hooks/useJobs";
+import { createContext, useEffect, useState } from "react";
+import { getApplyingJobs } from "../utilities/fakedb";
 
 export const MyContext = createContext();
 
 const ContextProvider = ({ children }) => {
-  const [jobs] = useJobs();
+  const [jobs, setJobs] = useState([]);
+  const getStoreJobs = getApplyingJobs();
 
-  const data = { jobs };
+  useEffect(() => {
+    fetch("jobs.json")
+      .then((res) => res.json())
+      .then((data) => setJobs(data));
+  }, []);
+
+  const data = { jobs, getStoreJobs };
   return <MyContext.Provider value={data}>{children}</MyContext.Provider>;
 };
 

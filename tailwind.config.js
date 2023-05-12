@@ -7,6 +7,9 @@ export default {
   },
   theme: {
     extend: {
+      fontFamily: {
+        lobster: ["Lobster", "cursive"],
+      },
       colors: {
         raisingBlack: "#202020",
         customBlue: "#818DFE",
