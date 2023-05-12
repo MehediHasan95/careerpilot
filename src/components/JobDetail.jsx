@@ -28,7 +28,7 @@ const JobDetail = () => {
   return (
     <div className="px-2 lg:px-32">
       <div className="grid gap-5 lg:grid-cols-3 mt-5">
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-2 order-2 lg:order-1">
           <p className="mb-5">
             <span className="font-bold">Company: </span>
             {detail?.company}
@@ -56,7 +56,7 @@ const JobDetail = () => {
             <p>{detail?.requirements?.experience}</p>
           </div>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 order-1 lg:order-2">
           <div className="bg-custombg p-5 rounded-md">
             <h1 className="font-bold">Job Details</h1>
             <hr className="mt-2 mb-5" />

@@ -29,7 +29,7 @@ const Job = ({ job }) => {
           <FontAwesomeIcon icon={faSackDollar} /> {salary}
         </span>
       </p>
-      <Link to={`/${id}`}>
+      <Link to={`/jobdetail/${id}`}>
         <button className="bg-gradient-to-r from-customBlue to-customPurple text-white py-2 px-4 rounded-md">
           View Details
         </button>

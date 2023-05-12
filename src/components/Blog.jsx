@@ -37,7 +37,7 @@ const Blog = () => {
       </div>
       <div className="bg-base-100 my-5 p-3 rounded-md">
         <h1 className="text-xl font-semibold mb-2">
-          What is useRef in react what does it work?
+          What is useRef in react what does it work
         </h1>
         <p>
           React's useRef() hook is a function that creates a mutable reference

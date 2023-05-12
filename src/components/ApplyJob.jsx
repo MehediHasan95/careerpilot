@@ -74,7 +74,7 @@ const ApplyJob = () => {
                   <FontAwesomeIcon icon={faSackDollar} /> {e.salary}
                 </span>
               </div>
-              <Link to={`/${e.id}`}>
+              <Link to={`/jobdetail/${e.id}`}>
                 <button className="bg-gradient-to-r from-customBlue to-customPurple text-white py-2 px-4 rounded-md">
                   View Details
                 </button>
