@@ -74,7 +74,7 @@ const Navbar = () => {
                       isActive ? "font-bold text-customBlue" : "text-base"
                     }
                   >
-                    Blog
+                    Blogs
                   </span>
                 )}
               </NavLink>
@@ -135,7 +135,7 @@ const Navbar = () => {
                     isActive ? "mx-5 text-customBlue font-bold" : "mx-5"
                   }
                 >
-                  Blog
+                  Blogs
                 </span>
               )}
             </NavLink>
